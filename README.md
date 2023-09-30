@@ -6,9 +6,6 @@
 This tutorial outlines the lifecycle of a ticket from intake to resolution within the open-source help desk ticketing system osTicket.<br />
 
 
-<h2>Video Demonstration</h2>
-
-- ### [YouTube: How to create, work, and resolves tickets within osTicket](https://www.youtube.com)
 
 <h2>Environments and Technologies Used</h2>
 
@@ -30,25 +27,49 @@ This tutorial outlines the lifecycle of a ticket from intake to resolution withi
 <h2>Lifecycle Stages</h2>
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/PRBiN6u.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Intake form
+
+  This is where users (clients) of the osTicket service will fill the form out with referenced information. You'll need an email address that's been added into the system, full name, usually a phone number but in this instance we do not have one and then select a help topic from the drop down list.
 </p>
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/37QjJUH.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Filling intake form out
+
+  As a user you may not have the exact cause or reason for the issue person (business, individual, costumer) is experiencing so just fill out best you can. Help Topic drop down has several preloaded  categories to select from: Business Critical Outage, General Inquiry, and Personal computer issue. The goal here is to add as much pertinent information for the help desk Agent.
 </p>
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/PspWXMk.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Reworking a Ticket
+
+  Once a ticket has been submitted by a user, Agents should review the ticket and verify and make additional changes if required. On this ticket we can see priority level was orginally set to "Normal" based on the breif discription described by the User we can assume this could have a impact on business. You would click Priorty and this pop-up will show, once here you'll see the Priority level and you can change it, in this case to emergency. You'll notice you have to option to provide an optional reason but it's not required.
+</p>
+<br />
+
+<img src="https://i.imgur.com/vylGoWn.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Resolving Ticket
+
+  Looking over the picture you can see that changes have been implemented. Note SLA has been set to SEV-A meaning this the most critical metric and it's imparative that this metric is met. During this phase is where the Agent(s) will work on resolving this issue and provide updates via Ticket Thread.
+</p>
+<br />
+
+<img src="https://i.imgur.com/gDRYl36.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Resolved (Closed) Ticket
+
+  In this picture you can see that the ticket has been resolved and we can determine that based on the fact that the ticket is closed. On the previous screen where we saw the Ticket Thread there is an option at the bottom of the screen to close the ticket once resolved.
 </p>
 <br />
